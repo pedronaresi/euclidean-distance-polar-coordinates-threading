@@ -40,7 +40,6 @@ void *distancia_radial(void *tid) {
   thid = (long) tid;
 
   for(i=thid; i<N; i+=MAX_THREADS){
-      //if (array[i]>maxloc) maxloc = array[i];
       result[i] = sqrt((pow(r1[i],2) + pow(r2[i],2) - 2*r1[i]*r2[i]*cos(teta1[i]-teta2[i])));
   }
 
