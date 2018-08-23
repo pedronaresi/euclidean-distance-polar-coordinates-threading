@@ -12,7 +12,7 @@ The description for this task can be found (in Portuguese) [here](LAB-04-gerenci
 # How to Run:
 On C:
 ```sh
-gcc -o exec max.c -pthread -lm
+gcc -o euclidean euclidean.c -pthread -lm
 ```
 
 On Java:
